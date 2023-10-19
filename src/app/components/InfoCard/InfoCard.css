@@ -1,0 +1,37 @@
+.info_card{
+    background-color:white;
+    
+    width: 100%;
+}
+.info_card_cont{
+    background-color: var(--backgroundColor);
+    display: flex;
+     gap: 1rem;
+     padding: 3rem 1rem 1rem 1rem;
+    
+}
+.inf0_item{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    
+}
+.inf0_item > h3{
+ font-weight: 600;
+color: black;
+margin-bottom: 5px;
+
+}
+.inf0_item > p{
+     font-weight: 400;
+     font-size: 14px;
+    color: rgb(49, 49, 49);
+    line-height: 20px;
+}
+@media screen and (max-width: 768px) {
+    .info_card_cont{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

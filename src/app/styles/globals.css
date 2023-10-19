@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  --mainColor:#39587F;
+  --secColor:#264265;
+  --mainTextColor:#FFFFFF;
+  --secTextColor:#859DAB;
+  --btnColor:#5AC4A1;
+  --backgroundColor:#EFF2F5;
+  --darkTextColor:rgb(167, 165, 165);
+
+}
+
+.main_width{
+  padding: 0rem 10rem;
+}
+.btn{
+  font-weight: 600;
+    color: var(--mainTextColor);
+    background-color: var(--btnColor);
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .main_width {
+      padding: 0rem 1rem;
+    }
+
+}

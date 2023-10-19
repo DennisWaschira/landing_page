@@ -1,0 +1,67 @@
+.price_card{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.price_card_cont{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.price_card_top{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        text-align: center;
+        
+}
+.billing_options span{
+    padding: 10px;
+    font-size: 13px;
+}
+.selected{
+  background-color:#264265;
+  color: #FFFFFF;
+}
+.not_selected{
+  background-color: var(--backgroundColor);
+  color: #000000;
+}
+.price_list_items{
+  display: flex;
+  gap: .5rem;
+}
+.btn_show{
+  border: none;
+  outline: none;
+  background-color: var(--mainColor);
+  color: var(--mainTextColor);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+.hide_item{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .price_card{
+    height: 100%;
+  }
+  .price_list_items{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+  }
+    .hide_item {
+      display: block;
+    }
+}

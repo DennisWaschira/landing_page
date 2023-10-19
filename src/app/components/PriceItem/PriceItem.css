@@ -1,0 +1,77 @@
+.price_item{
+    width: 150px;
+    height: 100%;
+
+}
+
+.price_item_cont{
+    width: 100%;
+    height: 200px;
+    background-color: var(--backgroundColor);
+    padding: 5px;
+    display: flex;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.price_item_cont:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.price_item_cont:hover .btn_subscribe{
+   background-color: var(--btnColor);
+    
+    cursor: pointer;
+}
+
+.price_item_top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.price_item_top>h3{
+    font-size: 12px;
+}
+.item_des{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.item_des > div > span{
+    font-weight: 600;
+    font-size: 12px;
+}
+.info{
+    font-size: 13px;
+    color: black;
+    
+}
+.btn_subscribe{
+padding: 5px 20px;
+margin-top: 12px;
+border: none;
+font-size: 14px;
+background-color: #C0C0C0;
+color: white;
+}
+.plan_options{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 15px;
+    text-align: center;
+    border-right: 1px solid #f3f2f2;
+
+}
+.plan_options > span{
+    font-size: 13px;
+    
+}
+@media screen and (max-width: 768px) {}
