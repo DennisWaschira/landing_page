@@ -1,5 +1,8 @@
+"use client";
 import React from 'react'
 import "./HeroNav.css";
+
+
 const HeroNav = () => {
   return (
       <div className="hero_nav">
@@ -9,12 +12,13 @@ const HeroNav = () => {
                   Developers worldwide.
               </span>
               <div className="images_list">
-                  
-              <img className="item" src="./item5.png" alt=" " />
-              <img className="item" src="./itemone.png" alt="" />
-              <img className="item" src="./item2.png" alt="" />
-              <img className="item" src="./item3.png" alt="" />
-              <img className="item" src="./item4.png" alt="" />
+      
+              <img className="item" src="./Item2.png" alt="png" />
+              
+              <img className="item" src="./Item5.png" alt="png" />
+              <img className="item" src="./Itemone.png" alt="png" />
+              <img className="item" src="./Item4.png" alt="png" />
+              <img className="item" src="./Item3.png" alt="png" />
               </div>
           </div>
           

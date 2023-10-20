@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import "./FooterBottom.css";
 const FooterBottom = () => {
@@ -5,7 +6,7 @@ const FooterBottom = () => {
     <div className="footer_bottom main_width">
       <div className="footer_bottom_cont">
         <div className="footer_left">
-          <img src="./link.png" alt="logo" />
+          <img src="./Link.png" alt="logo" />
           <div className="social_links">
             <img src="./facebook.png" alt="" />
             <img src="./instagram.png" alt="" />
