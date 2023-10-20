@@ -60,13 +60,17 @@
     font-size: 12px;
 }
 @media screen and (max-width: 768px) {
+    .footer_bottom{
+        justify-content: flex-start;
+        align-items: start;
+    }
     .footer_bottom_cont{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     .footer_right{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }

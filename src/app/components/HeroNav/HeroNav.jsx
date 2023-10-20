@@ -10,11 +10,11 @@ const HeroNav = () => {
               </span>
               <div className="images_list">
                   
-              <img className="item"src="./item5.png" alt="" />
-              <img className="item"src="./itemone.png" alt="" />
-              <img className="item"src="./item2.png" alt="" />
-              <img className="item"src="./item3.png" alt="" />
-              <img className="item"src="./item4.png" alt="" />
+              <img className="item" src="./item5.png" alt=" " />
+              <img className="item" src="./itemone.png" alt="" />
+              <img className="item" src="./item2.png" alt="" />
+              <img className="item" src="./item3.png" alt="" />
+              <img className="item" src="./item4.png" alt="" />
               </div>
           </div>
           

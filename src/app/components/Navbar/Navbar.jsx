@@ -15,10 +15,9 @@ const Navbar = ({ }) => {
       <div className="menu_icons display">
         {open? <img src="./close.png" alt="close" onClick={()=>{setOpen((prev)=>(!prev))}}/> : <img src="./menu.png" alt="open" onClick={()=>{setOpen((prev)=>(!prev))}}/> }
       </div>
-      {
-        open ?
-          <>
-          <div className="nav_links">
+      
+       
+      <div className="nav_links" id={open? "hidden" : ""}>
       <span>Pricing</span>
       <span>Documentation</span>
       <span>FAQ</span>
@@ -31,9 +30,6 @@ const Navbar = ({ }) => {
       <span className= "btn">GET FREE API KEY</span>
 
       </div>
-          </>
-          :""
-      }
     
       
     </div>

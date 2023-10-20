@@ -21,8 +21,13 @@
     gap: 20px;
 
 }
+.nav_links#hidden{
+    display: flex;
+}
+
 .nav_links > span{
     color: white;
+    cursor: pointer;
 }
 
 .status{
@@ -57,15 +62,20 @@
            
         }
         .nav_links{
+            display: none;
+        }
+        .nav_links#hidden{
             width: 100vw;
-            height: fit-content;
+            height:68vh;
             display: flex;
             flex-direction: column;
+            
             position: absolute;
             top: 60px;
             left: 0;
-    
+            justify-content: flex-start;
+            align-items: start;
             background-color: var(--secColor);
-            padding: 10px;
+            padding: 3rem 0rem 0rem 1rem;
         }
 }
