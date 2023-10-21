@@ -104,4 +104,8 @@ font-size: 18px;
     .card{
         width: 100%;
     }
+    .card_details {
+            color: var(--secTextColor);
+            font-size: 12.5px;
+        }
 }
