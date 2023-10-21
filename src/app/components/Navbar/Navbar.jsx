@@ -27,7 +27,7 @@ const Navbar = ({ }) => {
         <span>Status</span>
       </span>
       <span>Sign In</span>
-      <span className={styles.btn}>GET FREE API KEY</span>
+      <span className={`${styles.btn} btn`}>GET FREE API KEY</span>
     </div>
   </div>
 </div>
