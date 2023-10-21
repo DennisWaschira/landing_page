@@ -16,10 +16,12 @@
 .hero_nav_desc{
     color: var(--mainTextColor);
     font-size: 14px;
+    width: 30%;
 }
 .images_list{
     display: flex;
     gap: 2rem;
+    width: 70%;
     
 
 }

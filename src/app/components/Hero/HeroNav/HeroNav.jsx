@@ -12,8 +12,8 @@ const HeroNav = () => {
     </span>
     <div className={styles.images_list}>
       <img className={styles.item} src="./Item2.png" alt="png" />
-      <img className={styles.item} src="./Item5.png" alt="png" />
       <img className={styles.item} src="./Itemone.png" alt="png" />
+      <img className={styles.item} src="./Item5.png" alt="png" />
       <img className={styles.item} src="./Item4.png" alt="png" />
       <img className={styles.item} src="./Item3.png" alt="png" />
     </div>

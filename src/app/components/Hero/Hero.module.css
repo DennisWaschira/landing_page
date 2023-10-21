@@ -98,6 +98,9 @@ font-size: 18px;
         display: none;
 
     }
+    .hero_left{
+        padding-top: 2rem;
+    }
     .card{
         width: 100%;
     }
