@@ -70,7 +70,7 @@
         }
         .nav_links#hidden{
             width: 100vw;
-            height:68vh;
+            height:55vh;
             display: flex;
             flex-direction: column;
             
