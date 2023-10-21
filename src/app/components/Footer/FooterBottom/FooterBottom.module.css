@@ -36,7 +36,7 @@
     
 }
 .footer_item h3{
-    font-size: 12px;
+    font-size: 15px;
     color: var(--mainTextColor);
 }
 .footer_item_list span{
@@ -44,6 +44,7 @@
         flex-direction: column;
         color: var(--mainTextColor);
         margin-top: 5px;
+        font-size: 14px;
 }
 .copyright{
     display: flex;
@@ -52,6 +53,7 @@
     justify-content: center;
     align-items: center;
     bottom: 0;
+    font-size: 14px;
 }
 .copyright span{
     color: white;

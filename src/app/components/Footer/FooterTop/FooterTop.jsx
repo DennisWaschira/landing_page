@@ -8,7 +8,7 @@ const FooterTop = () => {
     <p>
       Our currency API is free for up to 1,000 monthly requests. Get your API key today
     </p>
-    <button className={`${styles.btn_api} ${styles.btn}`}>GET FREE API KEY</button>
+    <button className={`${styles.btn_api} btn`}>GET FREE API KEY</button>
   </div>
 </div>
 

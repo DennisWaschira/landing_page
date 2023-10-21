@@ -14,6 +14,7 @@
 }
 .footer_top_cont p{
     color: var(--mainTextColor);
+    font-size: 14px;
 }
 
 .btn_api{

@@ -15,6 +15,7 @@
 }
 .hero_nav_desc{
     color: var(--mainTextColor);
+    font-size: 14px;
 }
 .images_list{
     display: flex;

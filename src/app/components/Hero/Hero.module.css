@@ -61,6 +61,7 @@ font-size: 18px;
 }
 .card_details{
     color: var(--secTextColor);
+    font-size: 14px;
 }
 .card_right{
     display: flex;

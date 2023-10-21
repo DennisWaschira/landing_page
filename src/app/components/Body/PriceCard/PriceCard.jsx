@@ -14,8 +14,8 @@ return (
       <div className={styles.price_card_top}>
         <h3>Exchangerate Pricing Plans</h3>
         <div className={styles.billing_options}>
-          <span className={selected === 1 ? styles.selected : styles.not_selected} onClick={() => setSelected(1)}>Monthly Billing</span>
-          <span className={selected === 2 ? styles.selected : styles.not_selected} onClick={() => setSelected(2)}>Yearly Billing</span>
+          <span className={styles.selected}>Monthly Billing</span>
+          <span className={styles.not_selected}>Yearly Billing</span>
         </div>
         <p>
           Choose <b>annual billing</b> and <b>save up to 20%.</b>

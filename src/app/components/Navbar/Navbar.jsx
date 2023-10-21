@@ -17,7 +17,7 @@ const Navbar = ({ }) => {
         <img src="./menu.png" alt="open" onClick={() => { setOpen(prev => !prev) }} />
       )}
     </div>
-    <div className={styles.nav_links} id={open ? "hidden" : ""}>
+    <div className={styles.nav_links} id={open ? styles.hidden : ""}>
       <span>Pricing</span>
       <span>Documentation</span>
       <span>FAQ</span>
